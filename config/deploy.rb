@@ -1,5 +1,5 @@
 set :application, "ivak"
-set :repository, "cesta_k_vasemu_repositari"
+set :repository, "git@github.com:lukapiske/ivak.git"
 set :scm, "git"
 role :web, "server3.railshosting.cz"
 role :app, "server3.railshosting.cz"
