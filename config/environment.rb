@@ -1,3 +1,4 @@
+
 # Be sure to restart your webserver when you modify this file.
 
 # Uncomment below to force Rails into production mode
@@ -42,13 +43,13 @@ Rails::Initializer.run do |config|
   config.gem 'htmlentities'
   config.gem 'json'
   config.gem 'calendar_date_select'
-  config.gem 'bluecloth', :version => '~> 2.0.5'
-  config.gem 'coderay', :version => '~> 0.8'
-  config.gem 'will_paginate', :version => '~> 2.3.11'
-  config.gem 'RedCloth', :version => '~> 4.2.2'
-  config.gem 'fdv-actionwebservice', :version => '2.3.8', :lib => 'actionwebservice'
-  config.gem 'addressable', :version => '~> 2.1.0', :lib => 'addressable/uri'
-  config.gem 'mini_magick', :version => '~> 1.2.5', :lib => 'mini_magick'
+  config.gem 'bluecloth'
+  config.gem 'coderay'
+  config.gem 'will_paginate'
+  config.gem 'RedCloth'
+  config.gem 'fdv-actionwebservice', :lib => 'actionwebservice'
+  config.gem 'addressable', :lib => 'addressable/uri'
+  config.gem 'mini_magick',  :lib => 'mini_magick'
   
   # Use the filesystem for sessions instead of the database
   config.action_controller.session = { :key => "_typo_session", :secret => "8d7879bd56b9470b659cdcae88792622" }
